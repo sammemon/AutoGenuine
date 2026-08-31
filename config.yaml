@@ -1,0 +1,36 @@
+model_list:
+  - model_name: qwen3-coder
+    litellm_params:
+      model: ollama/qwen3-coder:latest
+      api_base: http://localhost:11434
+  - model_name: qwen-small
+    litellm_params:
+      model: ollama/qwen2.5-coder:7b
+      api_base: http://localhost:11434
+  - model_name: gemma4
+    litellm_params:
+      model: ollama/gemma4:26b
+      api_base: http://localhost:11434
+  - model_name: claude-fable-5
+    litellm_params:
+      model: ollama/qwen2.5-coder:7b
+      api_base: http://localhost:11434
+  - model_name: claude-opus-5
+    litellm_params:
+      model: ollama/qwen2.5-coder:7b
+      api_base: http://localhost:11434
+  - model_name: claude-sonnet-5
+    litellm_params:
+      model: ollama/qwen2.5-coder:7b
+      api_base: http://localhost:11434
+  - model_name: claude-haiku-4-5-20251001
+    litellm_params:
+      model: ollama/qwen2.5-coder:7b
+      api_base: http://localhost:11434
+
+router_settings:
+  num_retries: 2
+  timeout: 600
+
+general_settings:
+  telemetry: false

@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+server/node_modules/
+
+# Production build output
+dist/
+build/
+
+# Environment secrets
+.env
+.env.local
+.env.production
+server/.env
+
+# Server uploads & temporary files
+server/uploads/*
+!server/uploads/.gitkeep
+
+# System & Editor files
+.DS_Store
+Thumbs.db
+*.log
+frontend.log
+server/*.log
+.claude/
