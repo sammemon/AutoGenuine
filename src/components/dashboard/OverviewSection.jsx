@@ -12,6 +12,7 @@ import {
   MessageSquare,
   ShieldAlert,
   TrendingUp,
+  TrendingDown,
   AlertTriangle,
   Clock,
   Truck,
